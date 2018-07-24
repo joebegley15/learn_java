@@ -24,3 +24,11 @@ public class Precedence {
 
 	}
 }
+
+public class Precedence {
+	public static void main(String[] args) {
+
+		char 5 > 4 ? 'Y' : 'N';
+
+	}
+}
