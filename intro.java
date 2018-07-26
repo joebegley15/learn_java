@@ -89,7 +89,7 @@ public class GeneralizationsB {
 	}
 }
 
-class Dog {
+class Dog extends Animal {
 
   int age;
 	public Dog(int dogsAge) {
@@ -111,10 +111,11 @@ class Dog {
 
 	public static void main(String[] args) {
 		Dog spike = new Dog(7);
-	    spike.bark();
-	    spike.run(1);
-	    int spikeAge = spike.getAge();
-	    System.out.println(spikeAge);
+    spike.bark();
+    spike.run(1);
+    int spikeAge = spike.getAge();
+    System.out.println(spikeAge);
+    spike.checkStatus();
 	}
 
 }
